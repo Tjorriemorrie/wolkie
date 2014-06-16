@@ -1,5 +1,5 @@
 # change application ID
-application: jaco-test-test
+application: yourappid
 version: 1
 runtime: python27
 api_version: 1
