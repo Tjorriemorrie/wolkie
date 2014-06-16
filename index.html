@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>DM Data Generation</title>
+</head>
+<body>
+    <h1>DotModus Data Generation for GAE, Cloud Storage and BigQuery</h1>
+    <h3>Submit Form</h3>
+    <div>
+        <p>So, what are we going to generate</p>
+        <form action="/generate" method="post">
+            <div>Number of Customers:<textarea name="numCustomer" rows="1" cols="20" required></textarea></div>
+            <div>Min Transactions per customer:<textarea name="minTransactions" rows="1" cols="20" required></textarea></div>
+            <div>Max Transactions per customer:<textarea name="maxTransactions" rows="1" cols="20" required></textarea></div>
+            <div><input type="submit" value="Hola!"></div>
+        </form>
+    </div>
+
+    <h5 style="display:none"><a type="button" href="/preview">Preview</a></h5>
+</body>
+</html>
