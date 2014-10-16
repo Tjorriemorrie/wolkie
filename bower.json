@@ -1,0 +1,20 @@
+{
+  "name": "wolkie",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Tjorriemorrie/wolkie",
+  "authors": [
+    "Tjorriemorrie <jacoj82@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}

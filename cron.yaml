@@ -1,0 +1,4 @@
+cron:
+#- description: oanda orderbook
+#  url: /cron/oanda
+#  schedule: every 60 minutes synchronized
